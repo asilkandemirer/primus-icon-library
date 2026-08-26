@@ -9,6 +9,8 @@
 .icon-section-divider { height: 1px; background: #d1d1d1; margin-bottom: 16px; }
 .icon-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; padding: 16px; background: #f5f5f5; border-radius: 12px; }
 .icon-card { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; padding: 24px 8px 16px; background: #fff; border-radius: 10px; }
-.icon-card svg { display: block; }
+.icon-card svg { display: block; fill: none; }
+.icon-card svg path[stroke] { fill: none !important; }
+.icon-card svg path:not([stroke]) { fill: #757575 !important; }
 .icon-card span { font-size: 11px; color: #262626; text-align: center; word-break: break-word; }
 .icon-badge { position: absolute; top: 8px; right: 12px; padding: 3px 8px; background: #ebebeb; border-radius: 4px; font-size: 9px; font-weight: 500; color: #999; }
